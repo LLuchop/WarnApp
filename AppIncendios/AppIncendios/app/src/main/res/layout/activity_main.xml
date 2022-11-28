@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9E0031"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:text="WarnApp"
+        android:textColor="#FFFFFF"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.079" />
+
+    <Button
+        android:id="@+id/edPrim"
+        android:layout_width="218dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="256dp"
+        android:backgroundTint="#E8B100"
+        android:fontFamily="sans-serif-black"
+        android:text="Educacion Primaria"
+        app:cornerRadius="50px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/adult"
+        android:layout_width="218dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="84dp"
+        android:backgroundTint="#E8B100"
+        android:fontFamily="sans-serif-black"
+        android:text="Adultos"
+        app:cornerRadius="50px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edPrim"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/emergencias"
+        android:layout_width="218dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="84dp"
+        android:backgroundTint="#E8B100"
+        android:fontFamily="sans-serif-black"
+        android:text="Emergencias"
+        app:cornerRadius="50px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adult"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="533dp"
+        android:layout_height="664dp"
+        android:layout_marginTop="189dp"
+        android:alpha="0.9"
+        android:visibility="visible"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/humofondo"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-26dp"
+        tools:visibility="visible" />
+</androidx.constraintlayout.widget.ConstraintLayout>
